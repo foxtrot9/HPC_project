@@ -1,4 +1,4 @@
-CS301 Project Code:
+CS301 Project:
 
 Team members:
 
@@ -29,3 +29,4 @@ If you set DEBUG_FLAG=1 , following things are generated.
 [ This files contains output sorted data. out[i].txt is the bucket i sorted by processor with rank =i.]
 
 3. Global splitters printed to stderr.
+
