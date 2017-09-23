@@ -1,14 +1,18 @@
-CS301 Project:
+# CS301 Project: Sample sort
 
-Team members:
+## Team members:
 
-Aayush Kapadia (201401407)
+- Aayush Kapadia (201401407)
 
-Mit Naria (201401448)
+- Mit Naria (201401448)
 
-Our code is based on MPI. Please install MPI libraries first.
+## Requirements
+
+Code is based on MPI. Please install MPI libraries first.
 
 In ubuntu , `sudo apt-get install libcr-dev mpich2 mpich2-doc` .
+
+## Implementation
 
 qsort.c -> Serial Quicksort implementation.
 This code automatically generates random input data (aka unsorted array) and generates output.
