@@ -6,6 +6,12 @@
 
 - Mit Naria (201401448)
 
+## Algorithm details
+
+Brief explanation of **How algorithm works** is present in file named [CS301_project_ppt_pdf.pdf](https://github.com/foxtrot9/HPC_project/blob/master/CS301_project_ppt_pdf.pdf).
+
+Proof of complexity of algorithm and scalability of algorithm is discussed in file [CS301_project_report.pdf](https://github.com/foxtrot9/HPC_project/blob/master/CS301_project_report.pdf).
+
 ## Requirements
 
 `C`, `MPI library`
@@ -35,4 +41,22 @@ If you set DEBUG_FLAG=1 , following things are generated.
 [ This files contains output sorted data. out[i].txt is the bucket i sorted by processor with rank =i.]
 
 3. Global splitters printed to stderr.
+
+## Results
+
+- Tested on Intel Xeon. Configuration: 2 sockets, 8 cores on each socket. 1 thread per 1 core. (Intel Hyper Threading disabled.)
+
+Problem size: `2*10^9` 64 bit integers
+
+Number of procs | Time is seconds | Speedup | Efficiency |
+----------------|-----------------|---------|------------|
+1 | 864.8 | - | 1 |
+2 | 617.02| 1.40 | 0.70 |
+4 | 309.6 | 2.793 | 0.6983 |
+8 | 153.825 | 5.621 | 0.702 |
+12 | 117.98 | 7.330 | 0.610 |
+16 | 104.7 | 8.259 | 0.5162 |
+
+
+[More results for different problem size](https://github.com/foxtrot9/HPC_project/blob/master/CS301_project_readings.pdf)
 
