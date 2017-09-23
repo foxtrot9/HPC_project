@@ -1,4 +1,4 @@
-# CS301 Project: Sample sort
+# CS301 High Performance Computing Project: Sample sort
 
 ## Team members:
 
@@ -8,9 +8,11 @@
 
 ## Requirements
 
-Code is based on MPI. Please install MPI libraries first.
+`C`, `MPI library`
 
-In ubuntu , `sudo apt-get install libcr-dev mpich2 mpich2-doc` .
+For `C`, use `GCC` or any other compiler.
+
+For `MPI library`, install `MPICH` using command `sudo apt-get install libcr-dev mpich2 mpich2-doc`.
 
 ## Implementation
 
