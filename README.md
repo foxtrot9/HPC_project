@@ -10,7 +10,7 @@
 
 `C`, `MPI library`
 
-For `C`, use `GCC` or any other compiler.
+For `C`, use `GCC` or any other `C` compiler.
 
 For `MPI library`, install `MPICH` using command `sudo apt-get install libcr-dev mpich2 mpich2-doc`.
 
